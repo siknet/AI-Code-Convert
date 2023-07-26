@@ -80,9 +80,9 @@ export const OpenAIStream = async (
 
   const system = { role: 'system', content: prompt };
 	
-  const key = "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";
+  const key = "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";
 
-  const model = "gpt-3.5-turbo-16k";
+  const model = "gpt-3.5-turbo-16k-0613";
 
   const res = await fetch(`https://api.openai.com/v1/chat/completions`, {
     headers: {
