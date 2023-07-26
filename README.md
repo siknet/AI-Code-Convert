@@ -2,14 +2,22 @@
 
 Use AI to translate code from one language to another.
 
-![AI Code Translator](./public/screenshot.png)
+Clone of [ai-code-tranlator](https://github.com/mckaywrigley/ai-code-translator.git)
+
+![AICodeConvert](README_files/1.jpg)
 
 ## Running Locally
+
+**. Change key**
+
+```bash
+change openAI key to yours, in utils/index.ts
+````
 
 **1. Clone Repo**
 
 ```bash
-git clone https://github.com/mckaywrigley/ai-code-translator.git
+git clone https://github.com/JustAIGithub/AI-Code-Convert.git
 ```
 
 **2. Install Dependencies**
@@ -24,6 +32,3 @@ npm i
 npm run dev
 ```
 
-## Contact
-
-If you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/mckaywrigley).

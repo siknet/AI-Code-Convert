@@ -198,6 +198,9 @@ export default function Home() {
 		    {loading ? 'Generating...' : 'Generate'}
 		  </button>
 		</div>
+		<button className="mt-2 cursor-pointer rounded-md bg-blue-800 px-4 py-2 hover:bg-blue-600 active:bg-blue-700">
+			<a href="https://base64.kr/en">Visit Base64.kr</a>
+		</button>
 	  </div>
     </>
   );

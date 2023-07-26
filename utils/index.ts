@@ -80,7 +80,7 @@ export const OpenAIStream = async (
 
   const system = { role: 'system', content: prompt };
 	
-  const key = "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";
+  const key = "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";
 
   const model = "gpt-3.5-turbo-16k";
 
